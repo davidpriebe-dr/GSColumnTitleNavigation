@@ -1,9 +1,11 @@
 function columnTitleUpdates(){
   var app = SpreadsheetApp;
 
-  var masterSS = app.openById("1nSK79KRlNgu8wMdsYFDnai9MeYYFBxVpDxJ8CmSrh24");
-  var hrSS = app.openById("1rkufQVPUOOSE-Zyh0pt8Rdg_jpZ-LgUTg6ZtiT7R8QE");
-  var prSS = app.openById("1KqYqSAz5cMUacvz19zUXC3jBe2bpesK6p-DFejnlQGs");
+
+  //Enter the Google Document IDs for your spreadsheets within the quotation marks
+  var masterSS = app.openById("");
+  var hrSS = app.openById("");
+  var prSS = app.openById("");
 
   var masterSheet = masterSS.getSheetByName("Master List");
   var hrSheet = hrSS.getSheetByName("HR Employees");
